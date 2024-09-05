@@ -15,13 +15,16 @@ function Contact() {
         </p>
       </div>
       <div className="flex flex-wrap gap-10 justify-center md:gap-28 lg:gap-40">
-        <a href="https://github.com/Nazarovfarhod">
+        <a target="_blank" href="https://github.com/Nazarovfarhod">
           <FaGithub className="w-10 h-10 md:w-12 md:h-12 lg:w-16 lg:h-16" />
         </a>
-        <a href="https://t.me/nazarov_002">
+        <a target="_blank" href="https://t.me/nazarov_002">
           <FaTelegram className="w-10 h-10 text-blue-400 md:w-12 md:h-12 lg:w-16 lg:h-16" />
         </a>
-        <a href="https://www.linkedin.com/in/farhod-nazarov-334510326/">
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/farhod-nazarov-334510326/"
+        >
           <FaLinkedin className="w-10 h-10 text-[#007AB9] md:w-12 md:h-12 lg:w-16 lg:h-16" />
         </a>
       </div>
