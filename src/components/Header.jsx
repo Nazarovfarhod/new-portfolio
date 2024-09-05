@@ -4,7 +4,7 @@ function Header() {
       <img src="/myPhoto.png" alt="my photo" className="w-60 h-60 rounded-md shadow-white" />
       <div>
         <h2 className="text-4xl tracking-[3px] font-bold mb-4 sm:text-5xl sm:mb-10 md:text-5xl md:mb-10 lg:text-5xl lg:mb-10">
-          PORTFOLIO
+          MY PORTFOLIO
         </h2>
         <p className="text-xl font-semibold lg:text-4xl">
           Nazarov Farxod Shavkatovich
