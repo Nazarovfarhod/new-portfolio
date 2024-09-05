@@ -1,10 +1,10 @@
 function Navbar() {
   return (
-    <div className="navbar flex justify-between pt-5 bg-black text-white items-center px-4 lg:px-12">
+    <div className="navbar flex justify-between pt-5 mb-10 bg-[#1b1a1a] rounded-b-3xl shadow-white-nav text-white items-center px-4 lg:px-12">
       <div className="navbar-start flex justify-between items-center w-full lg:w-auto">
         <img
           src="/dark-mode-fn.png"
-          className="btn btn-ghost w-40 h-16 lg:w-52 lg:h-20"
+          className="btn btn-ghost w-32 h-14"
         />
 
         <div className="dropdown lg:hidden relative">

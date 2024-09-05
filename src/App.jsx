@@ -3,11 +3,13 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import About from "./components/About";
 import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+import Contact from "./components/Contact";
 
 function App() {
   return (
     <Router>
-      <div className="bg-black text-white min-h-screen">
+      <div className="bg-black text-white min-h-screen pb-40">
         <div className=" container mx-auto">
           <div className="sticky top-0 z-20">
             <Navbar />
@@ -27,10 +29,10 @@ function App() {
             <Projects />
           </div>
           <div id="skills" className="text-center">
-            <h1>Skills </h1>
+            <Skills />
           </div>
           <div id="contact" className="text-center">
-            <h1>Contact</h1>
+            <Contact />
           </div>
         </div>
       </div>
