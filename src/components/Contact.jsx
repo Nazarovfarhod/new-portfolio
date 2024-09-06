@@ -9,10 +9,18 @@ function Contact() {
         Contact
       </h2>
       <div className="flex flex-col mb-10 gap-4 md:flex-row md:gap-20 md:mb-16 lg:flex-row justify-center lg:mb-24 lg:gap-32">
-        <p className="md:text-xl lg:text-2xl">Phone number: +99891 671-67-66</p>
-        <p className="md:text-xl lg:text-2xl">
+        <a
+          href="tel:+99891 671-67-66"
+          className="md:text-xl lg:text-2xl hover:underline hover:text-[#0079FF]"
+        >
+          Phone number: +99891 671-67-66
+        </a>
+        <a
+          href="mailto:nazarovfarhod002@gmail.com"
+          className="md:text-xl lg:text-2xl hover:underline hover:text-[#0079FF]"
+        >
           Email: nazarovfarhod002@gmail.com
-        </p>
+        </a>
       </div>
       <div className="flex flex-wrap gap-10 justify-center md:gap-28 lg:gap-40">
         <a target="_blank" href="https://github.com/Nazarovfarhod">
