@@ -5,6 +5,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
+import { FaFileDownload } from "react-icons/fa";
 
 function App() {
   return (
@@ -24,6 +25,16 @@ function App() {
           </div>
           <div id="about" className="text-center  mb-10 md:mb-16 lg:mb-20">
             <About />
+          </div>
+          <div className="w-full flex justify-center mb-10 lg:mb-20">
+            <a
+              className=" flex items-center gap-3 font-bold py-4 px-8 rounded-3xl bg-[#222] hover:bg-white hover:text-[#222] transition-colors
+              md:text-3xl md:w-[400px] lg:w-[450px] lg:text-4xl"
+              href="/rezyume-en.pdf"
+              download
+            >
+              Download Rezyume <FaFileDownload />
+            </a>
           </div>
           <div id="projects" className="text-center">
             <Projects />
