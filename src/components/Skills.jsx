@@ -60,10 +60,10 @@ function Skills() {
           Context
         </li>
         <li className="flex items-center gap-3 font-semibold w-44 text-xl px-10 shadow-white py-5 rounded-3xl bg-[#222] ">
-          Engilish
+          English
         </li>
         <li className="flex items-center gap-3 font-semibold w-44 text-xl px-10 shadow-white py-5 rounded-3xl bg-[#222] ">
-          Russion
+          Russian
         </li>
       </ul>
     </div>
