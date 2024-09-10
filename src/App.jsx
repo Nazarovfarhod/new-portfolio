@@ -23,7 +23,10 @@ function App() {
               Frontend Developer
             </h1>
           </div>
-          <div id="about" className="text-center  mb-10 md:mb-16 lg:mb-20">
+          <div
+            id="about"
+            className="text-center scroll-mt-28  mb-10 md:mb-16 lg:mb-20"
+          >
             <About />
           </div>
           <div className="w-full flex justify-center mb-10 lg:mb-20">
@@ -36,13 +39,13 @@ function App() {
               Download Rezyume <FaFileDownload />
             </a>
           </div>
-          <div id="projects" className="text-center">
+          <div id="projects" className="text-center scroll-mt-28">
             <Projects />
           </div>
-          <div id="skills" className="text-center">
+          <div id="skills" className="text-center scroll-mt-28">
             <Skills />
           </div>
-          <div id="contact" className="text-center">
+          <div id="contact" className="text-center scroll-mt-28">
             <Contact />
           </div>
         </div>
