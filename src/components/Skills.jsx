@@ -12,6 +12,7 @@ import { VscJson } from "react-icons/vsc";
 import { FaBootstrap } from "react-icons/fa6";
 import { SiShadcnui } from "react-icons/si";
 import bear from "../../public/images.jpg";
+import { RiTailwindCssFill } from "react-icons/ri";
 
 function Skills() {
   return (
@@ -57,6 +58,9 @@ function Skills() {
         </li>
         <li className="flex items-center gap-3 font-semibold w-44 text-lg px-7 shadow-white py-5 rounded-3xl bg-[#222] ">
           <VscJson className="w-9 h-9" /> JsonApi
+        </li>
+        <li className="flex items-center gap-3 font-semibold w-44 text-md px-5 shadow-white py-5 rounded-3xl bg-[#222] ">
+          <RiTailwindCssFill className="w-9 h-9 text-blue-500" /> TailwindCss
         </li>
         <li className="flex items-center gap-3 font-semibold w-44 text-md px-5 shadow-white py-5 rounded-3xl bg-[#222] ">
           <FaBootstrap className="w-9 h-9 text-blue-500" /> Bootstrap
