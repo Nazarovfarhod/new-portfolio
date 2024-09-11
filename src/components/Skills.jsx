@@ -10,6 +10,8 @@ import { RiNodejsLine } from "react-icons/ri";
 import { SiWebpack } from "react-icons/si";
 import { VscJson } from "react-icons/vsc";
 import { FaBootstrap } from "react-icons/fa6";
+import { SiShadcnui } from "react-icons/si";
+import bear from "../../public/images.jpg";
 
 function Skills() {
   return (
@@ -17,7 +19,10 @@ function Skills() {
       <h2 className="text-3xl tracking-[3px] font-bold mb-20 sm:text-5xl sm:mb-10 md:text-5xl md:mb-10 lg:text-5xl lg:mb-10">
         What do I know?
       </h2>
-      <ul id="skil" className="flex gap-10 flex-wrap justify-center max-w-[1100px]">
+      <ul
+        id="skil"
+        className="flex gap-10 flex-wrap justify-center max-w-[1100px]"
+      >
         <li className="flex items-center gap-3 w-44 text-lg px-10 shadow-white py-5 rounded-3xl bg-[#222] ">
           <IoLogoHtml5 className="w-9 h-9 text-[#ff5733]" /> HTML5
         </li>
@@ -55,6 +60,12 @@ function Skills() {
         </li>
         <li className="flex items-center gap-3 font-semibold w-44 text-md px-5 shadow-white py-5 rounded-3xl bg-[#222] ">
           <FaBootstrap className="w-9 h-9 text-blue-500" /> Bootstrap
+        </li>
+        <li className="flex items-center gap-3 font-semibold w-44 text-md px-5 shadow-white py-5 rounded-3xl bg-[#222] ">
+          <SiShadcnui className="w-9 h-9 text-white " /> Shadcn/UI
+        </li>
+        <li className="flex items-center gap-3 font-semibold w-44 text-md px-5 shadow-white py-5 rounded-3xl bg-[#222] ">
+          <img src={bear} alt="" className="w-8 h-8 rounded-full" /> Zustand
         </li>
         <li className="text-center font-semibold w-44 text-xl px-10 shadow-white py-5 rounded-3xl bg-[#222] ">
           Context
