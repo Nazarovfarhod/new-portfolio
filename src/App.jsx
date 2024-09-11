@@ -15,7 +15,7 @@ function App() {
           <div className="sticky top-0 z-20">
             <Navbar />
           </div>
-          <div id="home" className="text-center mb-5">
+          <div id="home" className="text-center mb-5 scroll-mt-28">
             <Header />
           </div>
           <div className="w-full text-center">
