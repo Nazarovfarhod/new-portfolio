@@ -33,7 +33,7 @@ function App() {
             <a
               className=" flex items-center gap-3 font-bold py-4 px-8 rounded-3xl bg-[#222] hover:bg-white hover:text-[#222] transition-colors
               md:text-3xl md:w-[400px] lg:w-[450px] lg:text-4xl"
-              href="/rezyume-en.pdf"
+              href="./rezyume.pdf"
               download
             >
               Download Rezyume <FaFileDownload />
