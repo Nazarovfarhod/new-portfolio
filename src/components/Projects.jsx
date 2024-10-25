@@ -190,6 +190,29 @@ function Projects() {
             </a>
           </div>
         </li>
+        <li className="flex flex-col items-center gap-5 shadow-white w-80 py-8 bg-[#222] rounded-xl">
+          <h3 className="text-xl font-bold md:text-2xl lg:text-3xl">
+            Random User
+          </h3>
+          <div className="flex gap-8">
+            <a
+              href="https://github.com/Nazarovfarhod/random-user.git"
+              className="flex items-center gap-5 hover:text-[#0079FF] hover:underline transition-colors"
+              target="_blank"
+            >
+              <FaGithub className="w-8 h-8" />
+              <span className="">GitHub</span>
+            </a>
+            <a
+              href="https://random-user-ashen-chi.vercel.app/"
+              className="flex items-center gap-5 hover:text-[#0079FF] hover:underline transition-colors"
+              target="_blank"
+            >
+              <IoLogoVercel className="w-8 h-8" />
+              <span className="">Vercel</span>
+            </a>
+          </div>
+        </li>
       </ul>
     </div>
   );
