@@ -144,7 +144,7 @@ function Projects() {
             </a>
           </div>
         </li>
-        <li className="flex flex-col items-center gap-5 shadow-white w-80 py-8 bg-[#222] rounded-xl">
+        {/* <li className="flex flex-col items-center gap-5 shadow-white w-80 py-8 bg-[#222] rounded-xl">
           <h3 className="text-xl font-bold md:text-2xl lg:text-3xl">
             Gues my number
           </h3>
@@ -166,7 +166,7 @@ function Projects() {
               <span className="">Vercel</span>
             </a>
           </div>
-        </li>
+        </li> */}
         <li className="flex flex-col items-center gap-5 shadow-white w-80 py-8 bg-[#222] rounded-xl">
           <h3 className="text-xl font-bold md:text-2xl lg:text-3xl">
             Audio player.
