@@ -10,7 +10,7 @@ import { FaFileDownload } from "react-icons/fa";
 function App() {
   return (
     <Router>
-      <div className="bg-black text-white min-h-screen pb-40">
+      <div className="bg-black  text-white min-h-screen pb-40">
         <div className=" container mx-auto">
           <div className="sticky top-0 z-20">
             <Navbar />
