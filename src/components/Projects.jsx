@@ -173,7 +173,7 @@ function Projects() {
           </h3>
           <div className="flex gap-8">
             <a
-              href="https://github.com/Nazarovfarhod/Top-Musics.git"
+              href="https://github.com/Nazarovfarhod/Musics-Player.git"
               className="flex items-center gap-5 hover:text-[#0079FF] hover:underline transition-colors"
               target="_blank"
             >
@@ -181,7 +181,7 @@ function Projects() {
               <span className="">GitHub</span>
             </a>
             <a
-              href="https://top-musics.vercel.app/"
+              href="https://musics-player-two.vercel.app"
               className="flex items-center gap-5 hover:text-[#0079FF] hover:underline transition-colors"
               target="_blank"
             >
