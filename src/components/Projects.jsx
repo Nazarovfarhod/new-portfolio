@@ -144,13 +144,13 @@ function Projects() {
             </a>
           </div>
         </li>
-        {/* <li className="flex flex-col items-center gap-5 shadow-white w-80 py-8 bg-[#222] rounded-xl">
+        <li className="flex flex-col items-center gap-5 shadow-white w-80 py-8 bg-[#222] rounded-xl">
           <h3 className="text-xl font-bold md:text-2xl lg:text-3xl">
             Gues my number
           </h3>
           <div className="flex gap-8">
             <a
-              href="https://github.com/Nazarovfarhod/Guss-my-number.git"
+              href="https://github.com/Nazarovfarhod/GussMyNumber.git"
               className="flex items-center gap-5 hover:text-[#0079FF] hover:underline transition-colors"
               target="_blank"
             >
@@ -158,7 +158,7 @@ function Projects() {
               <span className="">GitHub</span>
             </a>
             <a
-              href="https://guss-my-number.vercel.app/"
+              href="https://guss-my-number-u7i1.vercel.app/"
               className="flex items-center gap-5 hover:text-[#0079FF] hover:underline transition-colors"
               target="_blank"
             >
@@ -166,7 +166,7 @@ function Projects() {
               <span className="">Vercel</span>
             </a>
           </div>
-        </li> */}
+        </li>
         <li className="flex flex-col items-center gap-5 shadow-white w-80 py-8 bg-[#222] rounded-xl">
           <h3 className="text-xl font-bold md:text-2xl lg:text-3xl">
             Audio player.
